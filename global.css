@@ -89,7 +89,7 @@ body { padding: 0px; margin: 0px; background: #000811; }
 
 .mainmenu ul {margin: 0; padding: 0; margin-left: 25%;}
 .mainmenu li i { position: absolute; margin-left: -35px; margin-top: 6px; color: #012;  text-shadow: 0 1px 0 #036;}
-.mainmenu li { float: left; display: block; padding: 10px 10px 10px 50px; border-right: 1px solid #012; cursor: pointer; min-width: 100px; max-width: 100px; width: 20%;}
+.mainmenu li { float: left; display: block; padding: 10px 10px 10px 50px; border-right: 1px solid #012; cursor: pointer; width: 20%;}
 
 .mainmenu li:hover { background: #012; }
 .mainmenu li:hover i {color: #036; text-shadow: 0 1px 0 #000;}
