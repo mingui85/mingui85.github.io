@@ -81,6 +81,11 @@
 .mainmenu li a:active {
     color: gray;
 }
+.mainmenu li a {text-decoration: none;
+}
+
+
+
 @import url(http://fonts.googleapis.com/css?family=Cuprum:400,700);
 
 body { padding: 0px; margin: 0px; background: #fff; }
