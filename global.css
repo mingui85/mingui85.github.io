@@ -54,7 +54,7 @@
 	
 }
 .ml {
-	
+	float: left;
    	width: 25%;
 	height: 100px;
 	text-decoration: none;
