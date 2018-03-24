@@ -58,7 +58,17 @@
    	width: 25%;
 	height: 100px;
 	text-decoration: none;
+	margin: auto;
 	
+	
+	
+}
+.slider {
+	float: left;
+   	width: 600px;
+	height: 400px;
+	text-decoration: none;
+	text-align: center;
 	
 	
 }
