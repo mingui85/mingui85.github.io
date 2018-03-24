@@ -9,7 +9,10 @@
 	
 }
 .contacto {
-   	float: left;
+	float: right;
+	height: 100px;	
+	margin-right: 50px;
+   
 	
 	
 }
@@ -25,6 +28,8 @@
 }
 .logo {
    	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
 	
 	
 }
