@@ -62,7 +62,25 @@
 	
 	
 }
+/* unvisited link */
+.mainmenu li a:link {
+    color: white;
+}
 
+/* visited link */
+.mainmenu li a:visited {
+    color: black;
+}
+
+/* mouse over link */
+.mainmenu li a:hover {
+    color: red;
+}
+
+/* selected link */
+.mainmenu li a:active {
+    color: gray;
+}
 @import url(http://fonts.googleapis.com/css?family=Cuprum:400,700);
 
 body { padding: 0px; margin: 0px; background: #000811; }
