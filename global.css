@@ -112,21 +112,21 @@ body { padding: 0px; margin: 0px; background: #fff; }
 .mainmenu li desc { position: relative; float: left; font-size: 11px; color: #888; }
 
 .mainmenu li, .mainmenu li i, .mainmenu li main, .mainmenu li desc {
-    -moz-transition: all 0.40s ease-in-out;
-    -o-transition: all 0.40s ease-in-out;
-    transition: all 0.40s ease-in-out;
-    -webkit-transition: all 0.40s ease-in-out;}
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;}
 
 .mainmenu li:hover main { margin-left: 10px; 
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;}
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;}
 .mainmenu li:hover desc { margin-left: 30px; 
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;}
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;}
 	
 	
 	
@@ -154,6 +154,6 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 10s slidy infinite; 
+  animation: 30s slidy infinite; 
 }
 
