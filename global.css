@@ -140,8 +140,12 @@ body { padding: 0px; margin: 0px; background: #fff; }
 50% { left: -200%; }
 70% { left: -200%; }
 75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+80% { left: -300%; }
+85% { left: -400%; }
+90% { left: -400%; }
+95% { left: -500%; }
+100% { left: -500%; }
+
 }
 
 body { margin: 0; } 
