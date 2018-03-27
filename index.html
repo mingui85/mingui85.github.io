@@ -3,6 +3,9 @@
 <head>
 
  <link rel="stylesheet" type="text/css" href="global.css">
+ <link rel="stylesheet" type="text/css" href="global.css">
+ <script src="slidder.js"></script>
+ 
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 <body> 
@@ -50,111 +53,47 @@
 <div class="slider">
 
 <base href="https://mingui85.github.io/">
+<section class="awSlider">
+  <div  class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target=".carousel" data-slide-to="0" class="active"></li>
+      <li data-target=".carousel" data-slide-to="1"></li>
+      <li data-target=".carousel" data-slide-to="2"></li>
+      <li data-target=".carousel" data-slide-to="3"></li>
+    </ol>
 
-<div class="container">
-<div id="slider">
-<input checked type="radio" name="slider" id="slide1" />
-<input type="radio" name="slider" id="slide2" />
-<input type="radio" name="slider" id="slide3" />
-<input type="radio" name="slider" id="slide4" />
-<input type="radio" name="slider" id="slide5" />
-<input type="radio" name="slider" id="slide6" />
-<input type="radio" name="slider" id="slide7" />
-<input type="radio" name="slider" id="slide8" /> 
-<input type="radio" name="slider" id="slide9" /> 
-<input type="radio" name="slider" id="slide10"/> 
-<div id="slides">
-<div id="overflow">
-<div class="inner">
-<article><div class="info">
-<h5>Título</h5>
-<a href="#">Autor</a></div>
-<img src="https://mingui85.github.io/slider1.jpg" />
-</article>
-<article><div class="info">
-<h5>Título</h5>
-<a href="#">Autor</a></div>
-<img src="https://mingui85.github.io/slider2.jpg" />
-</article>
-<article><div class="info">
-<h5>Título</h5>
-<a href="#">Autor</a></div>
-<img src="https://mingui85.github.io/slider3.jpg"  />
-</article>
-<article><div class="info">
-<h5>Título</h5>
-<a href="#">Autor</a></div>
-<img src="https://mingui85.github.io/slider4.jpg"  />
-</article>
-<article><div class="info">
-<h5>Título</h5>
-<a href="#">Autor</a></div>
-<img src="https://mingui85.github.io/slider5.jpg"  />
-</article>
-  <article><div class="info">
-<h5>Título</h5>
-<a href="#">Autor</a></div>
-<img src="https://mingui85.github.io/slider6.jpg" />
-</article>
-  <article><div class="info">
-<h5>Título</h5>
-<a href="#">Autor</a></div>
-<img src="https://mingui85.github.io/slider7.jpg" />
-</article>
-  <article><div class="info">
-<h5>Título</h5>
-<a href="#">Autor</a></div>
-<img src="https://mingui85.github.io/slider8.jpg"  />
-</article>
-  <article><div class="info">
-<h5>Título</h5>
-<a href="#">Autor</a></div>
-<img src="https://mingui85.github.io/slider9.jpg"  />
-</article>
-  <article><div class="info">
-<h5>Título</h5>
-<a href="#">Autor</a></div>
-<img src="https://mingui85.github.io/slider10.jpg"  />
-</article>
-  
-</div>
-</div>
-</div>
-<div id="controls">
-				<label for="slide1"></label>
-				<label for="slide2"></label>
-				<label for="slide3"></label>
-				<label for="slide4"></label>
-				<label for="slide5"></label>
-				<label for="slide6"></label>
-				<label for="slide7"></label>
-				<label for="slide8"></label>
-				<label for="slide9"></label>
-				<label for="slide10"></label>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-941.jpg">
+        <div class="carousel-caption">Görsel #1</div>
+      </div>
+      <div class="item">
+        <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-101.jpg">
+        <div class="carousel-caption">Görsel #2</div>
+      </div>
+      <div class="item">
+        <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-1051.jpg">
+        <div class="carousel-caption">Görsel #3</div>
+      </div>
+      <div class="item">
+        <img src="http://www.adobewordpress.com/wp-content/uploads/2013/07/wallpaper-thumb-74.jpg">
+        <div class="carousel-caption">Görsel #4</div>
+      </div>
+    </div>
 
-
-
-
-			 </div>
-			 <div id="active">
-				<label for="slide1"></label>
-				<label for="slide2"></label>
-				<label for="slide3"></label>
-				<label for="slide4"></label>
-				<label for="slide5"></label>
-				<label for="slide6"></label>
-				<label for="slide7"></label>
-				<label for="slide8"></label>
-				<label for="slide9"></label>
-				<label for="slide10"></label>
-
-
-
-
-			 </div>
-</div>
+    <!-- Controls -->
+    <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Geri</span>
+    </a>
+    <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">İleri</span>
+    </a>
   </div>
-
+</section>
 
 
 </div>
