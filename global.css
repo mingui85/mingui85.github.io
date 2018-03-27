@@ -63,7 +63,7 @@
 	
 	
 }
-.slider {
+/*.slider {
 	float: left;
    	width: 600px;
 	height: 400px;
@@ -71,7 +71,8 @@
 	text-align: center;
 	
 	
-}
+}*/
+
 /* unvisited link */
 .mainmenu li a:link {
     color: white;
