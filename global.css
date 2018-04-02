@@ -1,3 +1,6 @@
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute !important;
+}
 .header {
     text-align: center;
     color: white;
