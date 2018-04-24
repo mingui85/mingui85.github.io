@@ -10,6 +10,16 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+	<style>
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+</style>
+	
 	</head>
 	<body> 
 	    <nav class="navbar navbar-expand-md navbar-light flex-row" style="background: linear-gradient(to right, rgba(150,150,150,0), rgba(230,228,228,1))">
@@ -71,7 +81,10 @@
 		
 		
 		
-		<div class="row" style="margin-top: 40px; margin-left: auto; margin-right: auto">	
+		<div class="row" style="margin-top: 40px; margin-left: auto; margin-right: auto">
+			
+			<button onclick="myFunction()">
+			
  <div class="col-md-2 col-sm-12" style="margin-left: 50px; margin-right: 38px;">
 	 <a href="/blog1.html">	
 				
@@ -83,17 +96,17 @@
 <div class="col-md-9 col-sm-12" style="padding-top: 50px; margin-left: 50px;">	
 	<h4>titulo 1</h4>
 	<p> prueba 1</p>
-	</div>		
+	
+	</div>	
+				</button>
+
+<div id="myDIV">
+This is my DIV element.
+</div>
 	</div>
 	
 		
-	<div id="element" style="display: none;">
-   <div id="close"><a href="#" id="hide">cerrar</a></div>
-   Este es un div ocultar
 		
-		
-</div>	
-	<a href="#" id="show">Mostrar</a>	
 		
 		
 <div class="row" style="margin-top: 40px; margin-left: auto; margin-right: auto">	
@@ -248,26 +261,19 @@
 7
 8
 9
-<script>
-      $(document).ready(function(){
-        $('ul.first').bsPhotoGallery({
-          "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
-          "hasModal" : true,
-          // "fullHeight" : false
-        });
-      });
-    </script>                
+               
 	
-		<script type="text/javascript">
-$(document).ready(function(){
-  $("#hide").click(function(){
-    $("#element").hide();
-  });
-  $("#show").click(function(){
-    $("#element").show();
-  });
-});
+		<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
 </script>
+
 		
 </body> 
 
